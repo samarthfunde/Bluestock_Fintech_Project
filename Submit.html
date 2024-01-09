@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Button and Tick Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin-top: 80px;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        #tickImage {  
+            margin-bottom: 720px;
+            position: fixed;
+            text-align: center;
+        }
+        
+        #closeButton {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+        
+        #userInfo {
+            background-color: rgb(211, 247, 211); /* Set to light green */
+            padding: 20px 0 0 20px;
+            text-align: left;
+            margin-top: 20px;
+            width: 80%; /* Set to 80% of the screen width */
+            height: 60vh; /* Adjust to less than 20% from the bottom */
+            position: fixed;
+            left: 10%; /* Center it by adjusting the left value */
+            bottom: 20%; /* Set 20% from the bottom */
+            /* Hide the scrollbar */
+        }
+
+        #userInfo p {
+            margin-bottom: 20px; /* Double space between lines */
+            display: flex;
+            align-items: baseline;
+        }
+        @media screen and (max-width:1400px){ 
+            #tickImage{ 
+                margin-bottom: 620px ;
+            }
+            
+        }
+        @media screen and (max-width: 1200px) {
+            #userInfo {
+                margin: 5px 0;
+            } 
+            #tickImage{ 
+                margin-bottom: 620px ;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            #userInfo {
+                width: 80%;
+                margin-top: 20px;
+                left: 10%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="tickImage">
+        <img src="https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/650992c0-9ef4-4cec-9438-20eccfb02400/public" alt="Tick Image" width="50" height="50">
+    </div>
+    <div id="userInfo">
+        <!-- Display user information here, fetched from the database -->
+        <p>ID: &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BSFTEN05</p>
+        <p>Date: &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   15/2/2023</p>
+        <p>Name:&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Dhananjay</p>
+        <p>Position:&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  SDE</p>
+        <p>Status:&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  valid</p>
+        <!-- Add other user profile information as needed -->
+    </div>
+
+    <div id="closeButton" onclick="redirectToBluePage()">Close</div>
+
+    <script>
+        function redirectToBluePage() {
+            window.location.href = 'blue.html';
+        }
+    </script>
+</body>
+</html>
