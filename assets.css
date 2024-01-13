@@ -1,0 +1,163 @@
+/* Blue.css */
+/* 
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 270px;
+}
+
+.offerId {
+  margin-right: 420px;
+}
+
+#verifyButton {
+  background-color: blue;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-right: 1250px;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.list {
+  margin-left: 1450px;
+  margin-top: 2px;
+}
+
+.bar {
+  position: fixed;
+  top: 1px;
+  right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .logo {
+      margin-right: 10px;
+      margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .logo {
+      margin-right: 10px; 
+      width: 150px; 
+      height: auto; 
+  }
+
+  .list {
+      margin-left: 10px;
+  }
+
+  .bar {
+      top: 5px;
+      right: 10px;
+  }
+  
+  body {
+      align-items: flex-start; 
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  input {
+      margin-right: 0;
+  }
+
+  .offerId {
+      margin-right: 10px;
+  }
+
+  #verifyButton {
+      margin-left: 0;
+  }
+
+  .logo {
+      margin-right: 1px;
+  }
+
+  .list {
+      margin-left: 10px;
+  }
+
+  .bar {
+      top: 10px;
+      right: 10px;
+  }
+} */
+
+
+
+/* .form-control{
+  
+  margin-left: 470px;
+  width: 30%;
+
+  margin-right: 170px;
+} */
+
+/* #offerId{
+  margin-right: 80px;
+  width: 700;
+} */
+body {
+  padding: 20px;
+}
+
+/* .navbar {
+  margin-bottom: 20px;
+} */
+
+.id{
+  margin-right: 500px;
+  color: rgb(50, 39, 39);
+}
+
+#offerId {
+
+  width: 1000px; 
+  margin-right: 80px;
+  box-sizing: border-box;
+}
+.btn{
+
+  margin-top: 50px; 
+  margin-right:0px;
+}
